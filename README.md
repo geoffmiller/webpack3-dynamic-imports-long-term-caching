@@ -8,4 +8,6 @@ To install and run locally:
 
 `npm run dev-server`
 
+then go to `http://localhost:8080`
+
 That's it! Modify a component and compare the hashes in the file names.
