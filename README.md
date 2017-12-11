@@ -1,6 +1,6 @@
 # A simple boilerplate for Webpack 3, dynamic imports, code splitting, and long term caching
 
-*For more info go to this [post]()*
+*For more info go to this [post](https://medium.com/@GeoffMiller/webpack-3-dynamic-imports-code-splitting-and-long-term-caching-made-easy-1892981e0ae7)*
 
 To install and run locally:
 
