@@ -19,18 +19,25 @@ const PageOne = Loadable({
   loading: Loading,
 })
 
+const PageTwo = Loadable({
+  loader: () => import('./pageTwo.js' /* webpackChunkName: 'pageTwo' */),
+  loading: Loading,
+})
+
 const App = () => (
   <Router>
     <div>
       <ul>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/pageOne">Page One</Link></li>
+        <li><Link to="/pageTwo">Page Two</Link></li>
       </ul>
 
       <hr/>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route exact path="/pageOne" component={PageOne}/>
+        <Route exact path="/pageTwo" component={PageTwo}/>
       </Switch>
     </div>
   </Router>
